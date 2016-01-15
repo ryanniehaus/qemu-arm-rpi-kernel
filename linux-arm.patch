@@ -33,7 +33,7 @@ index 1dba368..c64487a 100644
 +endmenu
 \ No newline at end of file
 diff --git a/arch/arm/mm/Kconfig b/arch/arm/mm/Kconfig
-index bb263d8..cc26100 100644
+index bb263d8..72608d2 100644
 --- a/arch/arm/mm/Kconfig
 +++ b/arch/arm/mm/Kconfig
 @@ -71,7 +71,7 @@ config CPU_ARM9TDMI
@@ -98,3 +98,10 @@ index bb263d8..cc26100 100644
  	select CPU_32v6K
  	select CPU_32v7
  	select CPU_ABRT_EV7
+@@ -1037,4 +1038,4 @@ config DEBUG_RODATA
+ 	  kernel's executable code. Additionally splits rodata from kernel
+ 	  text so it can be made explicitly non-executable. This creates
+ 	  another section-size padded region, so it can waste more memory
+-	  space while gaining the read-only protections.
++	  space while gaining the read-only protections.
+\ No newline at end of file
